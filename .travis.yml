@@ -1,8 +1,8 @@
-language: embedded c
+language: embeddedc
 sudo: false
 compiler:
  - clang
- - gcc
+ - gcc for AVR
 script:
   - gcc -o code code.c
   - ./code
