@@ -1,0 +1,8 @@
+language: c
+sudo: false
+compiler:
+ - clang
+ - gcc
+script:
+  - gcc -o code code.c
+  - ./code
