@@ -1,4 +1,4 @@
-language: c
+language: embedded c
 sudo: false
 compiler:
  - clang
